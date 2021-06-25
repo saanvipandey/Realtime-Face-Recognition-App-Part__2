@@ -1,0 +1,70 @@
+body
+{
+    background-position:center;
+}
+
+.heading
+{
+    font-size:25px;
+    width:60%;
+    margin:0px;
+    box-shadow:5px 5px 5px rgb(131, 160, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique;
+    border-width:4px;
+    border-color:rgb(171, 255, 182);
+    border-style:hidden;
+}
+
+.login_div
+{
+    float: none;
+    background:white;
+    padding:15px;
+    border-radius: 40px;
+    color:rgb(0, 0, 0);
+    box-shadow:5px 5px 5px black;
+}
+.result_para_tag
+{
+    box-shadow:5px 5px 5px rgb(245, 130, 102);
+    font-size:20px;
+    font-style:italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.copy_right_footer
+{
+    position:fixed;
+    color:rgb(197, 28, 248);
+    bottom:0;
+    width:100%;
+    background-color:rgb(255, 104, 104);
+    line-height:2.5;
+    text-align:center;
+    font-size:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight:bold;
+    border-color:violet;
+    border-width:3px;
+}
+
+canvas
+{
+    border:5px solid rgb(255, 109, 206);
+    border-radius:20px;
+    box-shadow:5px 5px 5px black;
+    margin-top:150px;
+    animation-name:example;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(81, 197, 230);}
+    to{box-shadow: 1px 1px 38px rgb(104, 126, 255);}
+}
+
